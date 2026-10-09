@@ -1,0 +1,6 @@
+{
+  "name": "EVIDENCELOCK",
+  "description": "Digital Evidence Integrity & Chain-of-Custody Management System. Every File Has a History. Every Change Leaves Evidence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

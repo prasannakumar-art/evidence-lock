@@ -1,0 +1,10 @@
+[FORENSIC BITSTREAM LOG - DD IMAGING REPORT]
+Case ID: CASE-2026-CR-0842
+Source Device: Western Digital NVMe SN850X 2TB Serial #WDS200T2X0E-00BCA0
+Acquisition Tool: Tableau TX1 Forensic Imager v24.2
+Write Blocker: Hardware Engaged (Read-Only Mode)
+Sectors Read: 3,907,029,168 (Zero bad sectors encountered)
+Acquisition Start: 2026-10-01 08:14:22 UTC
+Acquisition Complete: 2026-10-01 10:47:11 UTC
+Hardware Cryptographic Salt: 7f3b89a04cd8e12
+Primary Image Integrity Checksum Verified.

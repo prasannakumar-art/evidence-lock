@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  evidencelock:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: evidencelock-vault
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - SESSION_SECRET=evidencelock-production-hardened-secret-key-2026
+    volumes:
+      - evidencelock-data:/app/data
+      - evidencelock-storage:/app/storage
+      - evidencelock-keys:/app/keys
+
+volumes:
+  evidencelock-data:
+  evidencelock-storage:
+  evidencelock-keys:
